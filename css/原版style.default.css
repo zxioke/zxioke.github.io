@@ -36,7 +36,7 @@
   --bs-gray-700: #495057;
   --bs-gray-800: #343a40;
   --bs-gray-900: #222222;
-  --bs-primary: #200c57;
+  --bs-primary: #4fbfa8;
   --bs-secondary: #6c757d;
   --bs-success: #28a745;
   --bs-info: #17a2b8;
@@ -52,7 +52,7 @@
   --bs-danger-rgb: 220, 53, 69;
   --bs-light-rgb: 248, 249, 250;
   --bs-dark-rgb: 34, 34, 34;
-  --bs-primary-text-emphasis: #20214c;
+  --bs-primary-text-emphasis: #204c43;
   --bs-secondary-text-emphasis: #2b2f32;
   --bs-success-text-emphasis: #10431c;
   --bs-info-text-emphasis: #09414a;
@@ -100,10 +100,10 @@
   --bs-tertiary-bg: #f8f9fa;
   --bs-tertiary-bg-rgb: 248, 249, 250;
   --bs-heading-color: inherit;
-  --bs-link-color: #220f67;
+  --bs-link-color: #4fbfa8;
   --bs-link-color-rgb: 79, 191, 168;
   --bs-link-decoration: none;
-  --bs-link-hover-color: #250f65;
+  --bs-link-hover-color: #348e7b;
   --bs-link-hover-color-rgb: 52, 142, 123;
   --bs-code-color: #d63384;
   --bs-highlight-bg: #fcf8e3;
@@ -13248,8 +13248,8 @@ section {
   display: inline-block;
   line-height: 1;
   padding: 1rem 0;
-  /* border-top: 1px solid #ccc; */
-  /* border-bottom: 1px solid #ccc; */ 
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
 }
 .heading-white {
   border-color: #fff;
@@ -14322,10 +14322,10 @@ a.text-hover-dark:focus, a.text-hover-dark:hover {
 }
 .filter-btn {
   border: none;
-  /* border-top: 1px solid #4fbfa8;
-  border-bottom: 1px solid #4fbfa8; */
+  border-top: 1px solid #4fbfa8;
+  border-bottom: 1px solid #4fbfa8;
   padding: 0.5rem;
-  /* color: #4fbfa8; */
+  color: #4fbfa8;
   background: none;
   font-size: 1.1rem;
   font-family: "Roboto Slab", serif;
